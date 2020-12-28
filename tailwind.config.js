@@ -4,7 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'accent-1': '#333',
+        'dr-red': '#BD2F24',
+        'dr-red-light': '#8A0A00',
+        'dr-black': '#1C1215',
+        'dr-yellow': '#F3D957'
       },
     },
   },
