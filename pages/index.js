@@ -20,7 +20,7 @@ export default function Home() {
         <div className="bg-dr-red flex-none md:flex-1"></div>
       </nav>
 
-      <section className="flex">
+      <section className="flex flex-col md:flex-row">
         <div className="flex-1 hidden md:block">
           <div>
             <img src="/dognroll.png" alt="carrinho do dognroll" />
@@ -29,19 +29,19 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="bg-dr-red flex-1 flex flex-col items-center justify-start">
+        <div className="bg-dr-red flex-1 flex flex-col items-center md:justify-start">
           <img className="relative mt-5 md:mt-0 mx-4 md:mx-0 mb-4 md:mb-0 w-44 top-0 md:-top-12" src="/logo-principal.png" alt="logo principal do dognroll" />
-          <h1 className="text-5xl md:text-4xl lg:text-5xl font-bold text-white">
+          <h1 className="text-4xl lg:text-5xl font-bold text-white">
             Os mais saborosos <br />  Burgers e Hot Dogs <br /> de Curitiba
           </h1>
-          <a href="#delivery" className="bg-dr-red-light mt-12 mb-5 md:mb-0 py-4 px-24 md:mt-20 text-white text-2xl">
+          <a href="#delivery" className="bg-dr-red-light mt-12 md:mt-6 mb-5 md:mb-0 py-4 px-24 lg:mt-20 text-white text-2xl">
             PEÇA JÁ
           </a>
         </div>
       </section>
 
       <div className="block md:hidden bg-white">
-        <h2 className="text-dr-black text-4xl mt-6 font-bold uppercase text-center">Delivery!</h2>
+        <h2 className="text-dr-black text-4xl py-6 font-bold uppercase text-center">Delivery!</h2>
       </div>
       <section id="delivery" className="flex flex-wrap justify-center gap-10 py-10 md:py-20 bg-white">
         <a href="https://www.rappi.com.br/curitiba/restaurantes/dog-n-roll" target="_blank" className="relative bg-dr-red border-8 border-dr-black flex justify-center items-center w-36 h-36">
