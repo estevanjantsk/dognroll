@@ -59,7 +59,7 @@ export default function Home() {
       </section>
 
       <section className=" bg-dr-red py-10">
-        <h2 id="social" className="text-dr-yellow text-4xl font-bold uppercase text-center">Conecte-se conosco!</h2>
+        <h2 id="social" className="text-dr-yellow text-3xl md:text-4xl font-bold uppercase text-center">Conecte-se conosco!</h2>
         <div className="flex justify-center gap-20 my-10 md:my-24">
           <a href="https://www.facebook.com/dognrollcwb/" target="_blank">
             <img src="/facebook.svg" alt="facebook" />
@@ -69,7 +69,7 @@ export default function Home() {
           </a>
         </div>
         <h2 className="text-white text-4xl font-bold uppercase text-center">Contato</h2>
-        <div className="flex flex-wrap justify-center gap-20 px-20 py-10">
+        <div className="flex flex-wrap justify-center gap-10 md:gap-20 px-10 md:px-20 py-10">
           <div id="contact" className="flex-1">
             <h3 className="text-dr-yellow text-2xl font-bold uppercase">ENDEREÇO</h3>
             <p className="text-white text-2xl font-bold uppercase">
