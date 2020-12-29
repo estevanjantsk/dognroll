@@ -79,7 +79,7 @@ export default function Home() {
             </p>
             <h3 className="text-dr-yellow text-2xl font-bold uppercase">TEL</h3>
             <p className="text-white text-2xl font-bold uppercase">
-              <a className="flex items-center" href="https://wa.me/5541992462219" target="_blank">+55 41 99246-2219 <img className="pl-2" src="/whatsapp.svg" alt="whatsapp" /></a> <a href="tel:3402-9334">3402-9334</a>
+              <a className="flex items-center" href="https://wa.me/5541992462219" target="_blank">+55 41 99246-2219 <img className="pl-2" src="/whatsapp.svg" alt="whatsapp" /></a>
             </p>
             <h3 className="text-dr-yellow text-2xl font-bold uppercase">EMAIL</h3>
             <a href="mailto:dognrollcwb@hotmail.com?subject=Contato Dog'n Roll!" target="_blank" rel="noopener noreferrer" className="text-white text-2xl font-bold uppercase">dognrollcwb@hotmail.com</a>
