@@ -5,7 +5,7 @@ const GA_TRACKING_ID = 'G-5N2B6WPE52';
 export default class MyDocument extends Document {
   render() {
     return (
-      <Html>
+      <Html lang="pt-BR">
         <Head>
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script
@@ -22,6 +22,7 @@ export default class MyDocument extends Document {
             gtag('config', '${GA_TRACKING_ID}', {
               page_path: window.location.pathname,
             });
+            document.addEventListener('touchstart', onTouchStart, {passive: true});
           `,
             }}
           />
